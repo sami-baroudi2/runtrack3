@@ -1,0 +1,27 @@
+.footer {
+    position: fixed;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    bottom : 0;
+    left : 0; 
+    right : 0;
+    background-color: navy;
+    border : solid 4px navy;
+}
+.foot {
+    color : navy;
+    font-size: 200%;
+    transition : all 0.5s ease-in-out;
+}
+.body {
+    background-color: ghostwhite;
+    min-height: 4096px;
+    transition: all 0.5s ease-in-out ;
+}
+.body.scroll {
+    background-color: cornflowerblue;
+}
+.footer.scrollFoot {
+    background-color: white;
+}
